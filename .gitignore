@@ -1,0 +1,28 @@
+# Runtime data
+data/*
+!data/.gitkeep
+uploads/*
+!uploads/.gitkeep
+*.db
+*.db-shm
+*.db-wal
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Python and editor files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local delivery artifacts
+outputs/*
+!outputs/.gitkeep
+work/*
+!work/.gitkeep
